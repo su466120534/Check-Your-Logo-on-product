@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Logo</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ 
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/canvas2image@1.0.5/canvas2image.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+   
+     
+    <body>
+    <div class="heading">D&D Logo</div>
+    <div class="container" id="specific">
+        <div class="box box1">
+            <button id="captureButton">	&#128247;&nbsp; Captute screen</button>
+            <br>
+            <button id="info">	&#8505;&nbsp; 
+                <div class="tooltip">info
+                    <span class="tooltiptext">
+                        <ol>
+                            <li>Upload Product Image.</li> 
+                            <li>Upload Your Logo(Must be transparent).</li> 
+                            <li>Drag and Drop Logo on Product.</li> 
+                            <li>Adjust your Logo.</li> 
+                            <li>Take a Screenshot.</li> 
+                        </ol>
+                    </span>
+                  </div>
+            </button>   
+            <hr>
+            
+            <br>
+            <label for="product image">Product image::</label>
+            <input type="file" id="image-input" accept="image/*">
+            <hr>
+            
+            
+            <label for="angle-input">Adjust Rotation Angle (degree):</label>
+            <input type="number" id="angle-input" min="0" max="360" step="1" value="0">  
+   
+            <hr>
+            <label for="product image">Your Logo::</label>
+            <br>
+            <input type="file" id="logo-input" accept="image/*">
+            
+            <div id="draggable" class="ui-widget-content">                                       
+                <input type="file" id="image-upload" accept="image/*">             
+                <!-- <img id="uploaded-image" src="" alt="Uploaded Image"> -->
+                <img id="uploaded-image" src="logo.png" alt="Uploaded Image">                
+            </div>     
+        </div>
+        <div class="box box2"> 
+                    <!-- Image will capture  -->
+                    <p class="product_title">Your Product shows here</p>
+            <div>
+                <img id="image-preview" src="" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="html2canvas.js"></script>
+    <script src="canvas2image.js"></script>
+    <!-- script start -->
+<script>    
+      </script>
+</body>
+</html>

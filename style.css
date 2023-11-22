@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #75E6DA;
+}
+.heading{
+    padding-left: 5%;
+    padding: 1%;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #189AB4;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#captureButton {
+    background-color:#05445E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#info{
+    background-color:#05445E;
+    border-radius: 0%;
+    cursor: pointer;    
+}
+.box {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;           
+}
+
+.box1 {
+    width: 30%;
+    background-color: #00969C;
+}
+
+.box2 {
+    width: 68%;
+    background-color: #D4F1F4;
+}
+
+#image-preview{
+    width: 100%;
+}
+#info{
+    float: right;
+}
+/* tooltips */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    /* padding: 5px 0; */
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 25%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #000000 transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#draggable {
+    /* width: 200px;
+    height: 200px;
+    padding: 10px; */
+    text-align: center;
+    /* border: 1px solid red; */
+    background-color: transparent;
+    /* border-color: transparent; */
+    display:inline-block;
+    position: relative;
+}
+
+#image-upload {
+    display: none; /* Hide the file input initially */
+}
+
+#uploaded-image {
+    max-width: 200%;
+    max-height: 200%;  
+    border-color: transparent;
+    border: none;
+    transform-origin: center center;
+    /* border: 1px solid black; */
+} 
+.product_title{
+    color: #7a7a7a;
+    padding-left: 40%;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
