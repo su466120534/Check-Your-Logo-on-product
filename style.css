@@ -93,16 +93,12 @@ body {
     visibility: visible;
 }
 
-#draggable {
-    /* width: 200px;
-    height: 200px;
-    padding: 10px; */
-    text-align: center;
-    /* border: 1px solid red; */
-    background-color: transparent;
-    /* border-color: transparent; */
+#draggable {    
+    text-align: center;    
+    background-color: transparent;    
     display:inline-block;
     position: relative;
+    border: none;
 }
 
 #image-upload {
@@ -112,8 +108,8 @@ body {
 #uploaded-image {
     max-width: 200%;
     max-height: 200%;  
-    border-color: transparent;
-    border: none;
+    /* border-color: transparent; */
+    /* border: none; */
     transform-origin: center center;
     /* border: 1px solid black; */
 } 

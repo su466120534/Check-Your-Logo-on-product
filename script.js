@@ -12,7 +12,6 @@ $(document).ready(function() {
       // Hide box1
       // var divToHide = document.querySelector('.box1');
       // divToHide.style.visibility = 'hidden';
-      
 
       // const targetElement = document.body;
       const targetElement = document.getElementById('specific');
@@ -79,8 +78,6 @@ $(document).ready(function() {
               }
           });
       });
-
-      
 
       // logo-preview
       document.addEventListener('DOMContentLoaded', function () {
