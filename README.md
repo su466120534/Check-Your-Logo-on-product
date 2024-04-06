@@ -3,11 +3,11 @@
 ### 1. Main Dashboard
 ![](Screenshots/1.png)
 
-### 2. Upload Product and Logo 
+### 2. Upload Product and Your Logo. 
 ![](Screenshots/2.png)
 
-### 3. Rotate or resize the logo on the product to enhance its visual appeal
+### 3. Rotate or resize the logo on the product to enhance its visual appeal.
 ![](Screenshots/3.png)
 
-### 4. Take a screenshot and show it to client
+### 4. Capture a screenshot to illustrate the point and share it with the client.
 ![](Screenshots/4.png)
