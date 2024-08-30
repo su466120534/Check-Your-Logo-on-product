@@ -12,6 +12,15 @@ body {
     background-color: #4CAF50; /* 柔和的绿色 */
     color: white;
     border-radius: 8px; /* 添加圆角 */
+    text-align: center;
+    position: relative;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #e0f7fa; /* 浅蓝色，与背景形成对比 */
+    margin-top: 5px;
+    text-align: center;
 }
 
 .container {
